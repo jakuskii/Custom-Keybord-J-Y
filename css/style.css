@@ -76,7 +76,9 @@ img{
     display:block;
     object-fit:cover;
 }
-
+.logocs{
+    width: 27.5%;
+}
 .btn{
     display: inline-block;
     background:var(--color-white);
@@ -381,7 +383,9 @@ footer ul li a:hover{
     h4{
         font-size:1.2rem
     }
-   
+    .logocs{
+        max-width: 53.5%;
+    }
     nav button{
         display: inline-block;
         background: transparent;
@@ -472,6 +476,9 @@ footer ul li a:hover{
     }
     header{
         height: 100vh;
+    }
+    .logocs{
+        width: 65.5%;
     }
     .header__container{
         grid-template-columns: 1fr;
