@@ -288,9 +288,19 @@ header{
 overflow-x: hidden;
 position: relative;
 margin-bottom: 5rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap:1rem ;
 }
-.testimonial{
+testimonials_Container2{
     padding-top:2rem ;
+    padding: 2rem;
+    display:flex;
+    align-items: center;
+    background:var(--color-primary);
+    gap: 1rem;
+    
+   
 }
 .avatar{
     width:6rem;
